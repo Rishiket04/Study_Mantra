@@ -25,7 +25,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: '*',
+    origin: 'https://study-mantra-main.vercel.app',
     credentials: true,
    
   })
